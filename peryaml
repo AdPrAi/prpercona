@@ -1,0 +1,7 @@
+apiVersion: pxc.percona.com/v1
+kind: PerconaXtraDBClusterBackup
+metadata:
+  name: pepbackup1
+spec:
+  pxcCluster: percona-xtrdb-cluster
+  storageName: 	pvc-wp-rwx
